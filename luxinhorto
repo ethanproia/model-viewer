@@ -1,0 +1,15 @@
+<!-- Import the component -->
+<script type="module" src="https://unpkg.com/@google/model-viewer/dist/model-viewer.min.js"></script>
+
+<model-viewer
+	exposure="0.006";
+    style="width:100%; height:500px"
+    src="https://cdn.glitch.com/0e68767d-3839-4e84-b08b-9cbc387e2ccb%2FLIH_ref_5k_faces_update.glb?v=1602927824562"
+	ios-src="https://cdn.glitch.com/0e68767d-3839-4e84-b08b-9cbc387e2ccb%2Fusdz_lih_ref_5k_faces_update.usdz?v=1602927829726" 		alt="3D photogrammetry model of the Lux in Horto installation site in Lurie Garden"
+    shadow-intensity="1.2"
+    field-of-view="30deg"
+    camera-controls=""
+    interaction-prompt="auto"
+    auto-rotate=""
+    ar ar-modes="webxr scene-viewer quick-look" ar-scale="auto" magic-leap="" data-js-focus-visible="" class="">
+</model-viewer>
